@@ -1,6 +1,6 @@
-def is_adult(age):
-    return age > 18
+def get_last(items):
+    return items[len(items)]
 
 
 if __name__ == "__main__":
-    print(is_adult(18))
+    print(get_last([1, 2, 3]))
