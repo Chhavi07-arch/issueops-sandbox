@@ -1,4 +1,6 @@
 def process_input(user_input):
+    if user_input is None:
+        return ""
     return user_input.strip().lower()
 
 
