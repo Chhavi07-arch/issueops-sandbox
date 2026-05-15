@@ -1,5 +1,5 @@
 def get_last(items):
-    return items[len(items)]
+    return items[-1]
 
 
 if __name__ == "__main__":
