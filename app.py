@@ -1,5 +1,8 @@
 def process_input(user_input):
-    return user_input.strip().lower()
+    if user_input is None:
+        return ''
+    else:
+        return user_input.strip().lower()
 
 
 if __name__ == "__main__":
